@@ -1,0 +1,221 @@
+:root {
+	--main-font: "Roboto", sans-serif;
+
+	/*color */
+	--main-light: #fff;
+	--main-dark: #212121;
+	--main-color-font: #757575;
+	--secondary-color: #2196f3;
+	--logo-wrap-color: #000000;
+    --btn-inactive: #F5F4FA;
+    --btn-active: #188ce8;
+    --main-unit: #2F303A;
+    }
+
+body {
+	font-family: var(--main-font);
+	color: var(--main-color-font);
+	font-size: 14px;
+    letter-spacing: 0.03em;
+	}
+
+.link {
+	text-decoration: none;
+}
+
+.list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	padding-left: 0;
+	margin: 0;
+	list-style: none;
+   }
+
+.container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 15px;
+}
+
+/*header*/
+
+.logo {
+	font-family: "Raleway";
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--secondary-color);
+    text-decoration: none;
+	font-family: 'Raleway';
+	font-weight: 700;
+}
+
+.logo-wrap {
+	color: var(--logo-wrap-color);
+}
+
+.link-nav {
+text-decoration: none;
+font-family: var(--main-font);
+font-weight: 500;
+letter-spacing: 0.02em;
+color: var(--main-dark);
+}
+
+.link-nav:hover,
+.link-nav:focus {
+	color: var(--secondary-color);
+    text-decoration: none;
+}
+
+/*рішення для вашого бізнесу */
+.hero {
+	background-color: var(--main-unit);
+	color: var(--main-dark);
+}
+
+.hero-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--main-light);
+    }
+.hero-btn {
+	cursor: pointer;
+	background-color: var(--secondary-color);
+	font-family: var(--main-light);
+	font-size: 16px;
+	line-height: 1.88;
+	text-align: center;
+	background: var(--btn-active);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+    color: var(--main-light);
+    }
+.filtr-btn {
+	cursor: pointer;
+	background: var(--btn-inactive);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
+	text-align: center;
+	color: var(--main-dark);
+    border: none;
+}
+
+.filtr-btn:hover,
+.filtr-btn:focus {
+	background: var(--secondary-color);
+	color: var(--main-light);
+}
+
+/*умови*/
+.benefits-title {
+		position: absolute;
+		white-space: nowrap;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		border: 0;
+		padding: 0;
+		clip: rect(0 0 0 0);
+		clip-path: inset(50%);
+		margin: -1px;
+		} 
+
+.benefits-list {
+    list-style: none;
+}
+
+
+.benefits-list-title {
+	font-size: 14px;
+	line-height: 1.14;
+	color: var(--main-dark);
+	text-transform: uppercase;
+}
+  
+
+.benefits-list-title-description {
+	line-height: 1.71;
+	color: var(--main-color-font);
+}
+
+/*Наша команда*/
+
+.team-title,
+.sectio-title {
+	text-align: center;
+	font-size: 36px;
+	line-height: 1.43;
+	color: var(--main-dark);  
+   }
+
+   .team-list {
+		background: var(--main-light);
+		list-style: none;
+}
+
+.team-list-name {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--main-dark);
+  }
+.team-list-name-profession {
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--main-color-font);
+}
+
+.goods-title {
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--main-dark);
+}
+
+.goods-title-nomenklatura {
+  	font-size: 16px;
+	line-height: 1.88px;
+	color: var(--main-color-font);
+}
+
+.link-contact {
+	font-style: normal;
+}
+.goods-item {
+    list-style: none;
+}
+   /*foote*/
+   footer {
+   background: var(--main-unit);
+   }
+.link-logo {
+	font-family: "Raleway";
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--secondary-color);
+    text-decoration: none;
+	font-family: 'Raleway';
+	font-weight: 700;
+	}
+.link-logo-wrap {
+	color: var(--main-light)
+}
+.link-contact {
+font-family: 'Roboto';
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+color: var(--main-light);
+text-decoration: none;
+}
