@@ -12,6 +12,12 @@
     --main-unit: #2F303A;
     }
 
+	.container {
+		width: 1200px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
 body {
 	font-family: var(--main-font);
 	color: var(--main-color-font);
@@ -24,6 +30,8 @@ body {
 }
 
 .list {
+	padding: 0px;
+	margin: 0px;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
@@ -33,10 +41,8 @@ body {
    }
 
 .container {
-	width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0 15px;
+	width: 1600px;
+	
 }
 
 /*header*/
@@ -76,6 +82,8 @@ color: var(--main-dark);
 }
 
 .hero-title {
+	margin-top: 0;
+	margin-bottom: 30px;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
@@ -133,6 +141,8 @@ color: var(--main-dark);
 
 
 .benefits-list-title {
+	margin-top: 0;
+	margin-bottom: 10px;
 	font-size: 14px;
 	line-height: 1.14;
 	color: var(--main-dark);
@@ -149,6 +159,7 @@ color: var(--main-dark);
 
 .team-title,
 .sectio-title {
+	margin-bottom: 50px;
 	text-align: center;
 	font-size: 36px;
 	line-height: 1.43;
@@ -161,6 +172,8 @@ color: var(--main-dark);
 }
 
 .team-list-name {
+	margin-top: 0;
+	margin-bottom: 10px;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
@@ -177,6 +190,8 @@ color: var(--main-dark);
 }
 
 .goods-title {
+	margin-top: 0;
+	margin-bottom: 4px;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
