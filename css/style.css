@@ -33,10 +33,17 @@ p {
 	margin: 0;
 	padding: 0;
 	}
-.main-nav {
+.header-container	{
 	display: flex;
 	align-items: center;
 }
+.header-nav {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	margin-left: 92px;
+}
+
 body {
 	font-family: var(--main-font);
 	color: var(--main-color-font);
@@ -63,7 +70,6 @@ body {
 
 
 .logo {
-	margin-left: 92px;
 	display: flex;
 	font-family: "Raleway";
 	font-size: 26px;
@@ -170,7 +176,6 @@ body {
     list-style: none;
 }
 
-
 .benefits-list-title {
 	margin-top: 0;
 	margin-bottom: 10px;
@@ -228,6 +233,9 @@ body {
 .goods-list{
 	display: flex;
 	flex-wrap: wrap;
+}
+.goods-item {
+width: 370px;
 }
 
 .goods-title {
