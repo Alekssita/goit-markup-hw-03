@@ -68,6 +68,9 @@ body {
 
 /*header*/
 
+.header {
+	padding: 0 0 94px;
+}
 
 .logo {
 	display: flex;
