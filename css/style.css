@@ -10,6 +10,9 @@
     --btn-inactive: #F5F4FA;
     --btn-active: #188ce8;
     --main-unit: #2F303A;
+	--border-heder: #ECECEC;
+	--border-goods: #EEEEE;
+
     }
 
 .container {
@@ -26,6 +29,9 @@
 	padding: 94px 0;
 	padding-bottom: 0;
 	}
+.section-footer {
+	padding: 94px 0;
+}
 
 h1,
 h2,
@@ -75,7 +81,18 @@ body {
 /*header*/
 
 .header {
-	border: 1px solid #ECECEC;
+	border: 1px solid var(--border-heder);
+}
+.list-header-contact {
+	display: flex;
+	justify-content: center;
+	padding: 0px;
+	margin: 0px;
+	flex-wrap: wrap;
+	gap: 50px;
+	padding-left: 0;
+	margin: 0;
+	list-style: none;
 }
 
 .logo {
@@ -116,7 +133,7 @@ body {
 }
 
 /*рішення для вашого бізнесу */
-.hero {
+.section-hero {
 	background-color: var(--main-unit);
 	color: var(--main-dark);
 	padding: 200px 0;
@@ -164,15 +181,16 @@ body {
 	text-align: center;
 	color: var(--main-dark);
     border: none;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .filtr-btn:hover,
 .filtr-btn:focus {
 	background: var(--secondary-color);
 	color: var(--main-light);
+	box-shadow: 
+	0px 1px 3px rgba(0, 0, 0, 12%)
+	0px 1px 3px rgba(0, 0, 0, 14%)
+	0px 1px 3px rgba(0, 0, 0, 20%);
 }
 
 /*умови*/
@@ -277,17 +295,16 @@ border-radius: 0px 0px 4px 4px;
 .goods-item {
 	max-width: 370px;
 	}
-
-.goods-title {
+.goods-title
+.goods-item {
 	margin-top: 0;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
 	color: var(--main-dark);
 }
-
 .goods-title-nomenklatura {
-  	font-size: 16px;
+	font-size: 16px;
 	line-height: 1.88;
 	color: var(--main-color-font);
 }
@@ -295,23 +312,31 @@ border-radius: 0px 0px 4px 4px;
 .link-contact {
 	font-style: normal;
 }
+
 .goods-item {
 	gap: 30px;
     list-style: none;
 	display: block;
 }
-.goods-item:nth-child(3n) {
-	margin-right: 0;
-}
-.goods-item-content{
+
+.goods-item-content {
 	padding: 20px 24px;
+	border: 1px solid var(--border-goods);
+}
+.goods-item img {
+	display: block;
 }
 
    /*foote*/
+.section-footer {
+	padding: 94px 0;
+	}
 footer {
    background: var(--main-unit);
    }
+ 
 .link-logo {
+	display: flex;
 	margin-bottom: 20px;
 	font-family: "Raleway";
 	font-size: 26px;
