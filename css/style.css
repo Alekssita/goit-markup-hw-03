@@ -11,8 +11,7 @@
     --btn-active: #188ce8;
     --main-unit: #2F303A;
 	--border-heder: #ECECEC;
-	--border-goods: #EEEEE;
-
+	--border-goods: #EEEEEE;
     }
 
 .container {
@@ -295,7 +294,13 @@ border-radius: 0px 0px 4px 4px;
 .goods-item {
 	max-width: 370px;
 	}
-.goods-title
+.goods-title {
+		margin-top: 0;
+		font-size: 18px;
+		line-height: 2;
+		letter-spacing: 0.06em;
+		color: var(--main-dark);
+	}
 .goods-item {
 	margin-top: 0;
 	font-size: 18px;
@@ -303,6 +308,8 @@ border-radius: 0px 0px 4px 4px;
 	letter-spacing: 0.06em;
 	color: var(--main-dark);
 }
+
+
 .goods-title-nomenklatura {
 	font-size: 16px;
 	line-height: 1.88;
@@ -329,7 +336,7 @@ border-radius: 0px 0px 4px 4px;
 
    /*foote*/
 .section-footer {
-	padding: 94px 0;
+	padding: 60px 0;
 	}
 footer {
    background: var(--main-unit);
