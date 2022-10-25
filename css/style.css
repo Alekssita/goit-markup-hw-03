@@ -166,7 +166,7 @@ body {
 	display: flex;
 	border: none;
     }
-.filtr-btn:hot(:last-child) {
+.filtr-btn:not(:last-child) {
 	margin-right: 8px;
 	}
 .filtr-btn {
@@ -316,10 +316,6 @@ border-radius: 0px 0px 4px 4px;
 	color: var(--main-color-font);
 }
 
-.link-contact {
-	font-style: normal;
-}
-
 .goods-item {
 	gap: 30px;
     list-style: none;
@@ -359,6 +355,7 @@ footer {
 }
 .link-contact {
 	margin-bottom: 9px;
+	font-style: normal;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-size: 14px;
@@ -367,8 +364,10 @@ footer {
 	text-decoration: none;
 }
 .list-contact {
-	padding-bottom: 9px;
 	justify-content: center;
 	flex-wrap: wrap;
 	list-style: none;
+}
+.list-contact-item:not(:last-child) {
+
 }
