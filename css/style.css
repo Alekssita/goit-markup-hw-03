@@ -354,7 +354,6 @@ footer {
 	color: var(--main-light)
 }
 .link-contact {
-	margin-bottom: 9px;
 	font-style: normal;
 	font-family: 'Roboto';
 	font-style: normal;
@@ -369,5 +368,5 @@ footer {
 	list-style: none;
 }
 .list-contact-item:not(:last-child) {
-
+	margin-bottom: 9px;
 }
